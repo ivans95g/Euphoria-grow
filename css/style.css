@@ -11,14 +11,23 @@ body{
     font-family: 'Hind Madurai', sans-serif;
     
 }
-header{
-    top: 0;
-    display: flex;
-   
-    justify-content: space-between;
-    background-color:black;
-    border-bottom: 1px solid rgb(73, 17, 73);
+.nav-link:hover{color: blueviolet;
+    font-size: 1.6rem;
+ 
+    
+}
+.container-fluid{
+    border-bottom: 1px solid blueviolet;
+}
+.nav-link{
+    font-size: 1.3rem;
 
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-toggler{
+    margin-left: 90%;
 }
 main,footer{
     background-color:black;
@@ -29,24 +38,17 @@ main,footer{
 .footer__shop{
     background-color: black;}
 .LogoEupho{
-    width: 5%;  /* porcentaje de que lo que se ve en la pagina (100%totalidad de la pantalla-4%queda como logo */
-    height: 5%;
+    width: 7%;  /* porcentaje de que lo que se ve en la pagina (100%totalidad de la pantalla-4%queda como logo */
+    height: 7%;
    
 }
 .menu-nav{
     display: flex;
     align-items: center;
 }
-.header__menu{
-    
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    justify-content: center;
-}
-.header__menu :active{
-    color: rgb(73, 17, 73);
-}
+
+
+
 .main__menu{
     text-align: center;
     display: flex;

@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* generales */
+body{
+    background-color: black ;
+    color: red;
+    font-family: 'Hind Madurai', sans-serif;
+    
+}
+header{
+    top: 0;
+    display: flex;
+   
+    justify-content: space-between;
+    background-color:black;
+    border-bottom: 1px solid rgb(73, 17, 73);
+
+}
+main,footer{
+    background-color:black;
+    color: white ;
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+.footer__shop{
+    background-color: black;}
+.LogoEupho{
+    width: 5%;  /* porcentaje de que lo que se ve en la pagina (100%totalidad de la pantalla-4%queda como logo */
+    height: 5%;
+   
+}
+.menu-nav{
+    display: flex;
+    align-items: center;
+}
+.header__menu{
+    
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+}
+.header__menu :active{
+    color: rgb(73, 17, 73);
+}
+.main__menu{
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.main__menu :active{
+    color: rgb(73, 17, 73)   ;
+}
+
+ul li a {
+    color: beige;
+    font-size: 1.3rem;      /* para cambiar el tamaño de las letras */
+    text-decoration: none;  /* subrayado none */
+}
+main{
+    text-align: center;
+
+}
+main h2 {
+    text-align: left;
+}
+
+/*index  main */
+
+main h1 {
+    margin: 30px 0px;
+}
+main h2{
+    margin: 40px 0px;
+}
+main h4 {
+    margin: 60px 0px;
+}
+.principal__mobile{
+    display: none;
+}
+
+/*index footer*/
+footer {
+   
+    text-align: center;
+    padding: 30px 200px;
+   
+    
+}
+footer div h3 {
+        margin: 20px 0px;
+        margin-bottom: 100px;
+}
+.footer__img{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.imagen{background-color: black;
+    width: 100%;
+    
+}
+
+.logo__azteka {box-sizing: border-box;
+    height: 100px;
+    }
+.Logo__LLion {box-sizing: border-box;
+    height: 100px;
+    padding: 0px 100px;
+    }
+.Logo__Namaste{box-sizing: border-box;
+    height: 100px;
+    }
+.Logo__Top{box-sizing: border-box;
+    height: 100px;
+    padding: 0 100px;
+    }
+.Logo__Vamp {box-sizing: border-box;
+    height: 100px;
+    }
+    /* shop menu secundario*/
+
+    .menu-secundario ul{
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    /* shop  footer */
+    
+    .footer__shop{
+        display: flex;
+        background-color: black;
+        justify-content: space-around;
+        gap: 30px;
+        padding: 100px;
+        padding-bottom: 30px;
+        border-top: 1px solid rgb(73, 17, 73);
+    }
+   .img__garantia,.img__camion,.img__confianza{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+   }
+
+    /* accesorios footer */
+    .main-aditivos{
+        margin-bottom: 50px;
+    }
+
+    .img-fila1{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: black;
+        display: flex;
+        color: black;
+        gap: 100px;
+        justify-content: space-around;
+       
+    }
+    .img-fila1 div{
+        background-color: white;
+        
+        
+    }
+     .img2-fila1{
+        margin-left: 100px;
+        margin-bottom: 40px;
+        background-color:black;
+        display: flex;
+        color: black;
+        gap: 10px;
+        justify-content: space-around;
+        align-items: stretch;
+        
+    }
+    .img2-fila1 div{
+        background-color: white;
+        align-items: stretch;
+    }
+    .img2-fila1 p {
+        margin: 0;
+    }
+   .img2-fila1 h2{
+    margin: 0;
+   }
+    
+     .img-fila2{
+        
+        display: flex;
+        margin-bottom: 50px;
+        background-color: black;
+        justify-content: space-around;
+        gap: 100px;
+       align-items: stretch;
+       color: black;
+    }
+    .img-fila2 div{
+        background-color: white;
+    }
+    .pie2{
+        padding: 20px 150px;
+    }
+    .img2-fila2{
+        display: flex;
+        margin-bottom: 50px;
+        background-color: black;
+        justify-content:space-around;
+        gap: 40px;
+        align-items: stretch;
+        color: black;
+    }
+    .img2-fila2 div{
+        background-color: white;
+    }
+
+
+    .img-fila3{display: flex;
+        margin-bottom: 50px;
+        background-color: black;
+        justify-content: space-around;  
+        gap: 100px;
+        align-items: stretch;
+        color: black;
+
+    }
+    .img-fila3 div{
+        background-color: white;
+    }
+    .img-fila4{display: flex;
+        margin-bottom: 50px;
+        background-color: black;
+        justify-content: space-around;
+        gap: 100px;
+        align-items: stretch;
+        color: black;
+
+    }
+
+    .img-fila4 div{
+        background-color: white;
+    }
+
+
+    .deseo-informacion, .formulario-curso{
+        text-align: left;
+        
+    }
+    .deseo-informacion{
+        padding-top: 150px;
+    }
+    .formulario-curso{
+        padding-top: 50px;
+    }
+    .logospies {display: flex;
+
+    }
+   
+    .img3-fila1{
+        display: flex;
+        justify-content:space-around ;
+        align-items: stretch;
+        gap: 100px;
+        background-color: black;
+        color: black;
+        margin-bottom: 50px;
+    }
+    .img3-fila1 div{
+        background-color: white;
+    }
+    .img3-fila2{display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        gap: 100px;
+        background-color: black;
+        color: black;}
+        .img3-fila2 div{
+            background-color: white;
+        }
+        .img4-fila1{
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+            gap: 100px;
+            background-color: black;
+            color: black;
+            margin-bottom: 50px;
+        }
+        .img4-fila1 div {
+            background-color: white;
+        }
+        .img4-fila2 {
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+            gap: 100px;
+            background-color: black;
+            color: black;
+        }
+        .img4-fila2 div{
+            background-color: white;
+        }
+        .img5-fila1 {
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+            gap: 100px;
+            background-color: black;
+            color: black;
+            margin-bottom: 50px;
+        }
+        .img5-fila1 div{
+            background-color: white;
+        }
+        .img5-fila2{
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+            gap: 100px;
+            background-color: black;
+            color: black;
+        }
+        .img5-fila2 div {
+            background-color: white;
+        }
+

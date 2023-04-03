@@ -1,0 +1,158 @@
+@import "../sass/style.css";
+.footer-index {
+  display: flex;
+  color: blueviolet;
+  gap: 100px;
+  justify-content: space-around;
+  margin-top: 100px;
+  font-size: 2rem;
+}
+
+main {
+  background-color: black;
+  color: white;
+  padding-top: 15px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+main h1 {
+  margin: 30px 0px;
+}
+main h2 {
+  text-align: left;
+  margin: 40px 0px;
+}
+main h4 {
+  margin: 60px 0px;
+}
+
+.footer__shop {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  grid-template-rows: 4fr 4fr;
+  margin-top: 100px;
+  text-align: center;
+  gap: 100px;
+  font-size: 0.8rem;
+  background-color: black;
+}
+.footer__shop p {
+  background-color: black;
+}
+
+.cursos {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* generales */
+body {
+  background-color: black;
+  color: white;
+  font-family: "Hind Madurai", sans-serif;
+}
+
+header .container-fluid {
+  border-bottom: 1px solid rgb(91, 5, 170);
+}
+header .nav-link {
+  font-size: 1.3rem;
+  color: white;
+}
+header .navbar-collapse {
+  justify-content: flex-end;
+}
+header .navbar-toggler {
+  margin-left: 90%;
+}
+header .LogoEupho {
+  width: 7%;
+  height: 7%;
+}
+
+.nav-link:hover {
+  color: rgb(91, 5, 170);
+  font-size: 1.6rem;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 30px 200px;
+}
+footer .footer__curso p {
+  background-color: black;
+  font-size: 1rem;
+}
+
+.main__footer {
+  padding: 30px 200px;
+}
+
+.img-nabvarmobile {
+  display: none;
+}
+
+.img2-fila1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 50px;
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.img2-fila1 div {
+  background-color: white;
+  color: black;
+}
+.img2-fila1 div h2 {
+  text-align: center;
+  background-color: white;
+  color: rgb(91, 5, 170);
+}
+.img2-fila1 div p {
+  text-align: center;
+  background-color: white;
+  color: rgb(91, 5, 170);
+  font-size: 200%;
+}
+
+/* mobile */
+@media only screen and (max-width: 517px) {
+  .h4, h4 {
+    font-size: 1rem;
+  }
+  .img2-fila1 {
+    grid-template-columns: 1fr;
+  }
+  .footer__shop {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    font-size: 0.5rem;
+  }
+  .img-nabvarmobile {
+    display: block;
+  }
+  .img-nabvar {
+    display: none;
+  }
+  .main__footer {
+    padding: 20px 100px;
+  }
+  .footer__curso {
+    font-size: 0.5rem;
+    padding: 5px 10px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,136 @@
+
+@import "../sass/style.css";
+@import "./index";
+@import "./shop" ;
+@import "./cursos" ;
+
+
+
+
+$eupho: rgb(91, 5, 170);
+
+@mixin tamaños ($whidt, $height) {
+    width: $whidt;
+    height: $height;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* generales */
+body{
+    background-color: black ;
+    color: white;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+header {
+     .container-fluid{
+        border-bottom: 1px solid $eupho;
+    } 
+    .nav-link{
+        font-size: 1.3rem;
+        color: white;
+    
+    }
+    .navbar-collapse{
+        justify-content: flex-end;
+    }
+    .navbar-toggler{
+        margin-left: 90%;
+    }
+    .LogoEupho{
+        @include tamaños (7%, 7%)
+       
+    }
+}
+.nav-link:hover{color: $eupho;
+    font-size: 1.6rem;
+}
+.nav-link{
+    font-size: 1.3rem;
+    color: white;
+
+}
+
+
+
+
+ 
+ footer {
+    background-color:black;
+    color: white ;
+     margin-bottom: 0px;
+    text-align: center;
+    padding: 30px 200px;
+    .footer__curso p{
+        background-color: black;
+        font-size: 1rem;
+       }
+    
+    }
+    
+    .main__footer{
+        padding: 30px 200px;
+    }
+   
+    .img-nabvarmobile{
+        display:none ;
+    } 
+        
+
+     .img2-fila1{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr 1fr ;
+       gap: 50px ;
+       margin-top: 100px;
+       text-align: center;
+       margin-bottom: 100px;
+       div{
+        background-color: white;
+        color: black;
+        h2{
+            text-align: center;
+            background-color: white;
+            color: $eupho;}
+            p{
+        
+                text-align: center;
+                background-color: white;
+                color: $eupho;
+                font-size: 200%;
+        
+        }
+           
+            
+       
+    }
+   
+}   
+
+/* mobile */
+@media only screen and (max-width: 517px){
+    .h4, h4 {
+        font-size: 1rem;
+    }
+    .img2-fila1{grid-template-columns: 1fr;}
+    .footer__shop{
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr ;
+        font-size: 0.5rem;
+    }
+    .img-nabvarmobile{display:block;}
+    .img-nabvar{
+        display: none;
+    }
+    .main__footer{
+        padding: 20px 100px;
+    }
+    .footer__curso{
+        font-size: 0.5rem;
+        padding: 5px 10px;
+    }
+
+}

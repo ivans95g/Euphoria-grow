@@ -1,19 +1,12 @@
-
+$eupho: rgb(91, 5, 170);
 @import "../sass/style.css";
 @import "./index";
 @import "./shop" ;
 @import "./cursos" ;
-
-
-
-
-$eupho: rgb(91, 5, 170);
-
 @mixin tamaños ($whidt, $height) {
     width: $whidt;
     height: $height;
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +17,6 @@ body{
     color: white;
     font-family: 'Hind Madurai', sans-serif;
 }
-
 header {
      .container-fluid{
         border-bottom: 1px solid $eupho;
@@ -51,14 +43,8 @@ header {
 .nav-link{
     font-size: 1.3rem;
     color: white;
-
 }
-
-
-
-
- 
- footer {
+footer {
     background-color:black;
     color: white ;
      margin-bottom: 0px;
@@ -68,19 +54,14 @@ header {
         background-color: black;
         font-size: 1rem;
        }
-    
     }
-    
-    .main__footer{
+.main__footer{
         padding: 30px 200px;
     }
-   
     .img-nabvarmobile{
         display:none ;
     } 
-        
-
-     .img2-fila1{
+    .img2-fila1{
        display: grid;
        grid-template-columns: 1fr 1fr 1fr;
        grid-template-rows: 1fr 1fr 1fr ;
@@ -100,16 +81,9 @@ header {
                 text-align: center;
                 background-color: white;
                 color: $eupho;
-                font-size: 200%;
-        
-        }
-           
-            
-       
-    }
-   
-}   
-
+                font-size: 200%;}
+           }
+   }   
 /* mobile */
 @media only screen and (max-width: 517px){
     .h4, h4 {
@@ -132,5 +106,4 @@ header {
         font-size: 0.5rem;
         padding: 5px 10px;
     }
-
 }
